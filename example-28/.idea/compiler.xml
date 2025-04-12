@@ -18,9 +18,11 @@
         <module name="example-29" />
         <module name="example-19" />
         <module name="example-27" />
-        <module name="example-28" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-28" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
