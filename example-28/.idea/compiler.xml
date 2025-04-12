@@ -15,6 +15,7 @@
         <module name="example-22" />
         <module name="example-20" />
         <module name="example-18" />
+        <module name="example-29" />
         <module name="example-19" />
         <module name="example-27" />
         <module name="example-28" />
@@ -34,6 +35,7 @@
       <module name="example-26" options="-parameters" />
       <module name="example-27" options="-parameters" />
       <module name="example-28" options="-parameters" />
+      <module name="example-29" options="-parameters" />
     </option>
   </component>
 </project>
