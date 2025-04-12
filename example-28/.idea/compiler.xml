@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example-25" />
+        <module name="example-26" />
+        <module name="example-23" />
+        <module name="example-24" />
+        <module name="example-21" />
+        <module name="example-22" />
+        <module name="example-20" />
+        <module name="example-18" />
+        <module name="example-19" />
+        <module name="example-27" />
+        <module name="example-28" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="example-18" options="-parameters" />
+      <module name="example-19" options="-parameters" />
+      <module name="example-20" options="-parameters" />
+      <module name="example-21" options="-parameters" />
+      <module name="example-22" options="-parameters" />
+      <module name="example-23" options="-parameters" />
+      <module name="example-24" options="-parameters" />
+      <module name="example-25" options="-parameters" />
+      <module name="example-26" options="-parameters" />
+      <module name="example-27" options="-parameters" />
+      <module name="example-28" options="-parameters" />
+    </option>
+  </component>
+</project>
