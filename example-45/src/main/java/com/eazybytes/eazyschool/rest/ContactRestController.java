@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping(value = "/api/contact",
         produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class ContactRestController
 {
     @Autowired
