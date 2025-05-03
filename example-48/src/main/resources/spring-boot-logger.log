@@ -1,0 +1,51 @@
+2025-05-03 15:10:53,877 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-05-03 15:10:54,003 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-03 15:10:54,003 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-03 15:10:54,938 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-03 15:10:55,019 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69 ms. Found 7 JPA repository interfaces.
+2025-05-03 15:10:56,452 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-05-03 15:10:56,468 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-03 15:10:56,471 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-05-03 15:10:56,471 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-03 15:10:56,550 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-05-03 15:10:56,550 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2546 ms
+2025-05-03 15:10:56,790 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-05-03 15:10:58,429 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63bb2bf9
+2025-05-03 15:10:58,432 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-05-03 15:10:58,487 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-03 15:10:58,566 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-05-03 15:10:58,575 WARN o.h.j.b.i.EntityManagerFactoryBuilderImpl [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2025-05-03 15:10:58,617 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-05-03 15:10:59,016 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-03 15:10:59,382 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-03 15:11:00,861 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-03 15:11:01,311 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03 15:11:01,917 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-03 15:11:02,303 WARN o.s.d.j.r.q.NamedQuery [restartedMain] Query method public abstract org.springframework.data.domain.Page com.eazybytes.eazyschool.repository.ContactRepository.findOpenMsgs(java.lang.String,org.springframework.data.domain.Pageable) is backed by a NamedQuery but contains a Pageable parameter; Sorting delivered via this Pageable will not be applied; Use @Query(value=…) instead to apply sorting.
+2025-05-03 15:11:02,376 WARN o.s.d.j.r.q.NamedQuery [restartedMain] Query method public abstract org.springframework.data.domain.Page com.eazybytes.eazyschool.repository.ContactRepository.findOpenMsgsNative(java.lang.String,org.springframework.data.domain.Pageable) is backed by a NamedQuery but contains a Pageable parameter; Sorting delivered via this Pageable will not be applied; Use @NativeQuery(value=…) instead to apply sorting.
+2025-05-03 15:11:02,561 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-03 15:11:02,806 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name eazySchoolUsernamePwdAuthenticationProvider
+2025-05-03 15:11:04,303 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-05-03 15:11:04,332 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-03 15:11:04,355 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-05-03 15:11:15,960 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-03 15:11:15,960 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-05-03 15:11:15,962 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-05-03 15:11:52,840 ERROR c.e.e.c.DashboardController [http-nio-8080-exec-2] Error message from the Dashboard page
+2025-05-03 15:11:58,474 ERROR c.e.e.c.DashboardController [http-nio-8080-exec-8] Error message from the Dashboard page
+2025-05-03 15:12:02,663 ERROR c.e.e.c.DashboardController [http-nio-8080-exec-2] Error message from the Dashboard page
+2025-05-03 15:12:06,292 ERROR c.e.e.c.DashboardController [http-nio-8080-exec-3] Error message from the Dashboard page
+2025-05-03 15:12:11,229 ERROR c.e.e.c.DashboardController [http-nio-8080-exec-8] Error message from the Dashboard page
+2025-05-03 15:12:33,849 ERROR c.e.e.a.LoggerAspect [http-nio-8080-exec-10] Authentication com.eazybytes.eazyschool.security.EazySchoolUsernamePwdAuthenticationProvider.authenticate(Authentication) An exception happened due to : 
+2025-05-03 15:13:20,508 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-03 15:13:20,530 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-05-03 15:13:20,539 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03 15:13:20,543 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-05-03 15:13:21,336 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
