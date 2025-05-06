@@ -67,7 +67,7 @@ Each module/folder in this repo corresponds to a specific section of the course,
 ### 👨‍💻 Author
 
 **Mohamed Amgad**  
-📧 [LinkedIn](https://www.linkedin.com/in/mohamed-amgad200/) | [GitHub](https://github.com/mohamedamgad200)
+📧 [LinkedIn](https://www.linkedin.com/in/mohamed-amgad-mohamed/) | [GitHub](https://github.com/mohamedamgad200)
 
 ---
 
